@@ -1,0 +1,26 @@
+# ವೇರಿಯೇಬಲ್‌ಗಳನ್ನು (variables) ವ್ಯಾಖ್ಯಾನಿಸಿ
+num1 = 15
+num2 = 7
+
+# ಮೊತ್ತವನ್ನು ಲೆಕ್ಕ ಹಾಕಿ
+sum_result = num1 + num2
+
+# ಫಲಿತಾಂಶವನ್ನು ಪ್ರದರ್ಶಿಸಿ
+print(f"The sum of {num1} and {num2} is: {sum_result}") 
+# Output: The sum of 15 and 7 is: 22   
+
+
+
+fruits = ["apple", "banana", "cherry", "date"]
+
+# ಪಟ್ಟಿಯ ಮೂಲಕ ಲೂಪ್ ಮಾಡಿ
+print("List of Fruits:")
+for fruit in fruits:
+    print(fruit)
+
+# Output:
+# List of Fruits:
+# apple
+# banana
+# cherry
+# date  
